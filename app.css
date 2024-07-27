@@ -23,4 +23,9 @@ body {
     background: #eeeeee;
     border-radius: 5px;
 }
-
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: (60px, auto);
+    background-color: #101116;
+}

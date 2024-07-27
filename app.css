@@ -60,3 +60,25 @@ input[type="text"] {
     background-color: aqua;
 
 }
+button {
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    
+
+}
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+.highlight {
+   
+    background-color: aqua;
+    color: #000000;
+}

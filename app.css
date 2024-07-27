@@ -1,3 +1,26 @@
 body {
     background: #00ff1a;
 }
+*{
+    font-family: 'Roboto', san-serif
+    font-size 18px;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    Top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 256%;
+    text-align: center;
+    border: 10px solid #101116;
+    background: #eeeeee;
+    border-radius: 5px;
+}
+
